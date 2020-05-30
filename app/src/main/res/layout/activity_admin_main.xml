@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AdminMainActivity">
+
+    <TextView
+        android:id="@+id/edtbusdet"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:text="Edit Bus Details"
+        android:textColor="@color/md_black_1000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editbusstatus"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:text="Edit Bus Status"
+        android:textColor="@color/md_black_1000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtbusdet" />
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:text="Change Notice"
+        android:textColor="@color/md_black_1000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editbusstatus" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bus Tracking</string>
+    <string name="bus_route_1_habibganj_truba">Bus Route 1 : \n Habibganj &lt;-&gt; Truba</string>
+    <string name="bus_route_2_n_sehore_truba">Bus Route 2 :\n Sehore &lt;-&gt; Truba</string>
+    <string name="bus_route_3_nlalghati_truba">Bus Route 3 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_4_nlalghati_truba">Bus Route 4 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_5_nlalghati_truba">Bus Route 5 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_6_nlalghati_truba">Bus Route 6 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_7_nlalghati_truba">Bus Route 7 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_8_nlalghati_truba">Bus Route 8 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_9_nlalghati_truba">Bus Route 9 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_10_nlalghati_truba">Bus Route 10 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_11_nlalghati_truba">Bus Route 11 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_12_nlalghati_truba">Bus Route 12 :\nLalghati &lt;-&gt; Truba</string>
+    <string-array name="BusDrivers">
+        <item>Driver Name 1</item>
+        <item>Driver Name2</item>
+        <item>Driver Name3</item>
+        <item>Driver Name4</item>
+        <item>Driver Name5</item>
+    </string-array>
+</resources>

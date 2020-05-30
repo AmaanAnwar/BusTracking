@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".adminBusStatus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="250dp"
+            >
+            <TextView
+                android:id="@+id/BusRoute1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_1_habibganj_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/BusRoute2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_2_n_sehore_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BusRoute1" />
+
+            <TextView
+                android:id="@+id/BusRoute3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_3_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BusRoute2" />
+
+            <TextView
+                android:id="@+id/BusRoute4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_4_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BusRoute3" />
+
+            <TextView
+                android:id="@+id/BusRout5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_5_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BusRoute4" />
+
+            <TextView
+                android:id="@+id/BusRoute6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_6_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BusRout5" />
+
+            <TextView
+                android:id="@+id/BusRoute7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_7_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BusRoute6" />
+
+            <TextView
+                android:id="@+id/BusRoute8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_8_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BusRoute7" />
+
+            <TextView
+                android:id="@+id/BusRoute9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_9_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BusRoute8" />
+
+            <TextView
+                android:id="@+id/BusRoute10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_10_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BusRoute9" />
+
+            <TextView
+                android:id="@+id/BusRoute11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_11_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BusRoute10" />
+
+            <TextView
+                android:id="@+id/BusRoute12"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableRight="@drawable/running"
+                android:gravity="center"
+                android:text="@string/bus_route_12_nlalghati_truba"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BusRoute11" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:text="Select To Change Status"
+                android:textColor="@color/md_white_1000"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
