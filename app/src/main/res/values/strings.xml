@@ -1,17 +1,17 @@
 <resources>
     <string name="app_name">Bus Tracking</string>
-    <string name="bus_route_1_habibganj_truba">Bus Route 1 : \n Habibganj &lt;-&gt; Truba</string>
-    <string name="bus_route_2_n_sehore_truba">Bus Route 2 :\n Sehore &lt;-&gt; Truba</string>
-    <string name="bus_route_3_nlalghati_truba">Bus Route 3 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_4_nlalghati_truba">Bus Route 4 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_5_nlalghati_truba">Bus Route 5 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_6_nlalghati_truba">Bus Route 6 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_7_nlalghati_truba">Bus Route 7 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_8_nlalghati_truba">Bus Route 8 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_9_nlalghati_truba">Bus Route 9 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_10_nlalghati_truba">Bus Route 10 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_11_nlalghati_truba">Bus Route 11 :\nLalghati &lt;-&gt; Truba</string>
-    <string name="bus_route_12_nlalghati_truba">Bus Route 12 :\nLalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_1_habibganj_truba">Bus Route 1 : \n Lalghati &lt;-&gt; Truba</string>
+    <string name="bus_route_2_n_sehore_truba">Bus Route 2 :\n Mandideep &lt;-&gt; Truba</string>
+    <string name="bus_route_3_nlalghati_truba">Bus Route 3 :\n M.P Nagar &lt;-&gt; Truba</string>
+    <string name="bus_route_4_nlalghati_truba">Bus Route 4 :\n Lamba Kheda &lt;-&gt; Truba</string>
+    <string name="bus_route_5_nlalghati_truba">Bus Route 5 :\n Kolar &lt;-&gt; Truba</string>
+    <string name="bus_route_6_nlalghati_truba">Bus Route 6 :\n Hoshangabad &lt;-&gt; Truba</string>
+    <string name="bus_route_7_nlalghati_truba">Bus Route 7 :\n Railway Bhopal &lt;-&gt; Truba</string>
+    <string name="bus_route_8_nlalghati_truba">Bus Route 8 :\n New Marcket &lt;-&gt; Truba</string>
+    <string name="bus_route_9_nlalghati_truba">Bus Route 9 :\n Vidisha &lt;-&gt; Truba</string>
+    <string name="bus_route_10_nlalghati_truba">Bus Route 10 :\n Ashoka Garden &lt;-&gt; Truba</string>
+    <string name="bus_route_11_nlalghati_truba">Bus Route 11 :\n Indra Puri &lt;-&gt; Truba</string>
+    <string name="bus_route_12_nlalghati_truba">Bus Route 12 :\n Sehore &lt;-&gt; Truba</string>
     <string-array name="BusDrivers">
         <item>Driver Name 1</item>
         <item>Driver Name2</item>
@@ -19,4 +19,16 @@
         <item>Driver Name4</item>
         <item>Driver Name5</item>
     </string-array>
+    <string name="title_activity_student_maps_view">Map</string>
+    <string name="title_activity_student_route2">Map</string>
+    <string name="title_activity_student_route3">Map</string>
+    <string name="title_activity_student_route4">Map</string>
+    <string name="title_activity_student_route5">Map</string>
+    <string name="title_activity_student_route6">Map</string>
+    <string name="title_activity_student_route7">Map</string>
+    <string name="title_activity_student_route8">Map</string>
+    <string name="title_activity_student_route9">Map</string>
+    <string name="title_activity_student_route10">Map</string>
+    <string name="title_activity_student_route11">Map</string>
+    <string name="title_activity_student_route12">Map</string>
 </resources>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.np.bustracking">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -8,8 +18,58 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".adminBusStatus"></activity>
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".StudentRoute12"
+            android:label="@string/title_activity_student_route12"></activity>
+        <activity
+            android:name=".StudentRoute11"
+            android:label="@string/title_activity_student_route11" />
+        <activity
+            android:name=".StudentRoute10"
+            android:label="@string/title_activity_student_route10" />
+        <activity
+            android:name=".StudentRoute9"
+            android:label="@string/title_activity_student_route9" />
+        <activity
+            android:name=".StudentRoute8"
+            android:label="@string/title_activity_student_route8" />
+        <activity
+            android:name=".StudentRoute7"
+            android:label="@string/title_activity_student_route7" />
+        <activity
+            android:name=".StudentRoute6"
+            android:label="@string/title_activity_student_route6" />
+        <activity
+            android:name=".StudentRoute5"
+            android:label="@string/title_activity_student_route5" />
+        <activity
+            android:name=".StudentRoute4"
+            android:label="@string/title_activity_student_route4" />
+        <activity
+            android:name=".StudentRoute3"
+            android:label="@string/title_activity_student_route3" />
+        <activity
+            android:name=".studentRoute2"
+            android:label="@string/title_activity_student_route2" />
+        <activity
+            android:name=".StudentMapsView"
+            android:label="@string/title_activity_student_maps_view" />
+        <activity android:name=".adminBusStatus" />
         <activity android:name=".adminNotice" />
         <activity android:name=".studentViewBus" />
         <activity android:name=".ListOfFeatures" />
