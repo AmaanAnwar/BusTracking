@@ -31,7 +31,7 @@ public class StudentRoute8 extends FragmentActivity implements OnMapReadyCallbac
 
         LatLng Lalghati = new LatLng(23.235757, 77.400741);
         LatLng truba = new LatLng(23.308832, 77.387583);
-        mMap.addMarker(new MarkerOptions().position(Lalghati).title("New Marcket Bus Stop"));
+        mMap.addMarker(new MarkerOptions().position(Lalghati).title("New Market Bus Stop"));
         mMap.addMarker(new MarkerOptions().position(truba).title("Truba (Destination)"));
         mMap.moveCamera(CameraUpdateFactory.zoomTo(15f));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Lalghati));
